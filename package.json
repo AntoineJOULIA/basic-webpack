@@ -1,0 +1,24 @@
+{
+  "name": "formation-xol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node-dev --respawn src/index.ts",
+    "build": "webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tidyjs/tidy": "^2.4.2"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.2.2",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.3.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
